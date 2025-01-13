@@ -1,8 +1,7 @@
 namespace algEx;
-
 public class BubleSort
 {
-    public static void Run(int[] array)
+    public void Run(int[] array)
     {            
         for (int i = 0; i < array.Length - 1; i++)
         {
